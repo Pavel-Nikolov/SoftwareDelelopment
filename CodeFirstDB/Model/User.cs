@@ -12,7 +12,7 @@ namespace Model
         public string Name { get; set; }
 
         public int? Age { get; set; }
-        public ICollection<Product> Products { get; set; }
+        public virtual ICollection<Product> Products { get; set; }
 
         public User()
         {

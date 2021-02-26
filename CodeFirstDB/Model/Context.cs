@@ -15,7 +15,7 @@ namespace Model
 
         public Context():base(/*to enter a connection string*/)
         {
-
+            
         }
     }
 }

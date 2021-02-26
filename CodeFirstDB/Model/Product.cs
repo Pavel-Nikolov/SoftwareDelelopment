@@ -13,8 +13,8 @@ namespace Model
 
         public decimal Price { get; set; }
         public int Quantity { get; set; }
-        public Brand Brand { get; set; }
-        public ICollection<User> Users { get; set; }
+        public virtual Brand Brand { get; set; }
+        public virtual ICollection<User> Users { get; set; }
 
         public Product()
         {
